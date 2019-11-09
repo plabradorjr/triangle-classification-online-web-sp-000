@@ -1,11 +1,11 @@
 class Triangle
 
-  attr_reader :x, :y, :z
+  attr_reader :a, :b, :c
 
-  def initialize(x,y,z)
-    @x = x
-    @y = y
-    @z = z
+  def initialize(a, b, c)
+    @a = a
+    @b = b
+    @c = c
   end
 
   def kind
@@ -29,6 +29,5 @@ class Triangle
 
   class TriangleError < StandardError
   end
-
 
 end
